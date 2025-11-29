@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(26, 26, 26);
+    /*background-color: rgb(26, 26, 26);*/
+    background: linear-gradient(135deg,rgb(26, 26, 26), rgb(224, 224, 224));
     color: rgb(224, 224, 224);
     text-align: center;
     margin: 0;
@@ -12,7 +13,15 @@ header {
     color: rgb(255, 255, 255);
     padding: 2em 0;
 }
-
+h1 span{
+    font-size: xx-large;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid 2px;
+    height: 150px;
+}
 section {
     margin: 2.5em auto;
     width: 85%;
