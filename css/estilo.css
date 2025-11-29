@@ -23,6 +23,15 @@ section {
     box-shadow: 0 0 10px rgb(0, 0, 0);
     transition: background 0.3s ease, transform 0.3s ease;
 }
+a{
+    text-decoration: none;
+    color: ghostwhite;
+    transition: transform 0.3s ease color 0.3s;
+}
+a:hover{
+    color:rgb(0, 190, 63);
+}
+
 
 section:hover {
     transform: scale(1.1);
@@ -60,7 +69,7 @@ ul li {
 }
 
 ul li:hover {
-    background: rgb(97, 57, 177);
+    background: rgb(19, 112, 0);
 }
 
 form {
