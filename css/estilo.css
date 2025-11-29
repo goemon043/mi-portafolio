@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /*background-color: rgb(26, 26, 26);*/
-    background: linear-gradient(135deg,rgb(26, 26, 26), rgb(224, 224, 224));
+    background: linear-gradient(135deg,rgb(26, 26, 26), rgb(83, 226, 114));
     color: rgb(224, 224, 224);
     text-align: center;
     margin: 0;
@@ -21,6 +20,10 @@ img{
     border-radius: 50%;
     border: 3px solid 2px;
     height: 150px;
+    transition: transform 0.3s;
+}
+img:hover{
+    transform: scale(1.1);
 }
 section {
     margin: 2.5em auto;
@@ -29,7 +32,7 @@ section {
     background: rgb(0, 0, 0);
     padding: 1.5em;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 4px 10px rgb(86, 165, 161);
     transition: background 0.3s ease, transform 0.3s ease;
 }
 a{
@@ -53,7 +56,10 @@ footer {
     padding: 1em 0;
     margin-top: 2em;
 }
-
+h1,h2,h3{
+    text-align: center;
+    color: rgb(67, 141, 6);
+}
 h1 {
     transition: transform 0.3s, color 0.3s;
 }
@@ -110,4 +116,14 @@ button {
 
 button:hover {
     background-color: rgb(20, 102, 20); 
+}
+#proyectos article{
+    background: rgb(54, 54, 54);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+#proyectos article:hover{
+    transform: scale(1.05);
 }
